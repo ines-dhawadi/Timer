@@ -2,7 +2,7 @@ import React from 'react'
 import './style.css'
 
 const contrtime = (ms) => {
-     /*const msparheure = 1000 * 60 * 60*/
+    
     const msparscond = 1000
     const msparmin = 1000  * 60
     const msparheure =  1000 * 60* 60
