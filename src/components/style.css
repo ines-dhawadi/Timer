@@ -2,7 +2,9 @@ body{
     background-image: url('https://cdn.pixabay.com/photo/2018/05/28/12/09/time-3435879__340.jpg');
 background-repeat: no-repeat;
 background-size: cover;
-
+overflow-y: hidden;
+margin: 0%;
+padding: 0%;
 
 
 }
@@ -34,4 +36,21 @@ background-size: cover;
     padding: 0.7rem;
     border-radius: 10px;
     color: white;
+}
+
+/*-------------------------------------------------------Timer--------------------------*/
+.glob{
+    text-align: center;
+}
+.blok{
+    display: inline-block;
+}
+.time-numb{
+    font-size: 4rem;
+    
+}
+.time-text{
+    display: flex;
+    justify-content: space-around;
+    color: gray;
 }
